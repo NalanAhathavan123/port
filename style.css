@@ -1,0 +1,296 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: 'Poppins', sans-serif;
+    font-size:18px;
+  
+}
+a{
+    text-decoration: none;
+     color:black;
+}
+.container{
+    display: flex;
+    justify-content:center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.nav-menu a{
+    height:50px;
+    width:850;
+   margin: 20px;
+   position: relative;
+   right:100px;
+   font-weight: bold;
+    
+}
+.nav-menu a:hover{
+    border-bottom: 3px solid gold;
+}
+.logo{
+    margin-left: 150px;
+    font-weight: bold;
+}
+.btn1{
+  width: 80px;
+  height:35px;
+  color:white;
+  background-color:rgb(255, 122, 87);
+  font-size: 14px;
+  font-weight: 700;
+  padding:10px;
+ border-radius: 10px;
+}
+.btn2{
+    width: 80px;
+    height:35px;
+    color:white;
+    background-color: rgb(52, 58, 64);
+    font-size: 14px;
+    font-weight: 700;
+    padding:10px;
+   border-radius: 10px;
+}
+.about{
+    display:flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-around;
+    margin-top: 70px;
+    
+}
+.profile{
+    width:550px;
+    height:550px;
+  
+}
+.about-text {
+    padding-bottom:8px;
+}
+#name{
+    font-size:55px;
+    margin-left:10px;
+    padding-bottom: 5px;
+}
+.intro{
+    font-size: 20px;
+}
+.role{
+    margin-left:10px;
+    margin-bottom: 5px;
+}
+.contact{
+    display: flex;
+    gap:22px;
+    align-items: flex-start;
+}
+.dp{
+    width:250px;
+    height:250px;
+    margin-left:50px;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+.bar{
+    width:100%px;
+    height:250px;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  margin-bottom: 25px;
+}
+.skills h2{
+    font-weight: 400;
+    font-size: 18px;
+}
+.skills h1{
+    font-size: 30px;
+    text-align: center;
+}
+.progress-bar{
+    width:600px;
+    height:10px;
+    border-radius: 5px;
+    background: #959595;
+}
+.progress-bar div{
+    height:10px;
+    border-radius: 5px;
+    width:0%;
+     
+}
+.progress-bar div span{
+   height:32px;
+   width:32px;
+   background-color: rgb(52, 58, 64);
+   border-radius: 50%;
+   float:right;
+  margin-top: -15px;
+  margin-right: -20px;
+  color:white;
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  text-align: center;
+  font-size: 12px;
+  padding-left: 2px;
+}
+.html{
+    background-color: #e91e63;
+    animation:html 1s linear forwards;
+}
+.css{
+    background-color: #cddc39;
+    animation:css 1s linear forwards;
+}
+.javascript{
+    background-color: #00bcd4;
+    animation:javascript 1s linear forwards;
+}
+.c{
+    background-color: #ffeb3b;
+    animation:c 1s linear forwards;
+}
+.figma{
+    background-color: #9c27b0;
+    animation:figma 1s linear forwards;
+}
+.html span{
+    border:1px solid #e91e63;
+}
+.css span{
+    border:1px solid #cddc39;
+}
+.javascript span{
+    border:1px solid #00bcd4;
+}
+.c span{
+    border:1px solid #ffeb3b;
+}
+.figma span{
+    border:1px solid #9c27b0;
+}
+@keyframes html {
+    100%{
+        width:86%;
+    }
+}
+@keyframes css {
+    100%{
+        width:75%;
+    }
+}
+@keyframes javascript {
+    100%{
+        width:59%;
+    }
+}
+@keyframes c {
+    100%{
+        width:70%;
+    }
+}
+@keyframes figma {
+    100%{
+        width:80%;
+    }
+}
+.proj-logo{
+   width:200px;
+   height:200px;
+   border-radius: 10px;
+}
+.projects{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.git-btn{
+    height:40px;
+    width:100px;
+    border-radius: 10px;
+    background-color:rgb(255, 122, 87);
+    color:white;
+    padding:5px;
+    font-size: 16px;
+    margin-left: 70px;
+}
+.proj-title{
+    font-weight: bold;
+    margin-top: 7px;
+    margin-bottom: 7px;
+}
+.project-1{
+    border:1.5px solid rgb(52, 58, 64);
+    padding:25px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+#project{
+    text-align: center;
+    font-size: 30px;
+}
+.contact{
+    display: flex;
+   flex-direction: column;
+   align-items:flex-start;
+   border:1.5px solid rgb(52, 58, 64);
+   padding:30px;
+   border-radius: 10px;
+   width:500px;
+   margin-top: 50px;
+   margin-left:100px;
+   
+   
+}
+.footer{
+    text-align: center;
+}
+.placeholder{
+    padding:7.5px;
+    width:450px;
+    border-radius:5px;
+    margin-bottom: 20px;
+    margin-top: 5px;
+}
+.place-text{
+    width:465px;
+    height:150px;
+    padding-left:10px;
+    border-radius:5px;
+}
+.btn3{
+    width:180px;
+    height:50px;
+    background-color: rgb(255, 122, 87);
+    border-radius: 10px;
+    border: none;
+    color:white; 
+}
+.place-hover:hover{
+    border: 2.5px solid gold;
+}
+.contact-num{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-end;
+  
+}
+.inline{
+    display: inline;
+}
+.cont{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-bottom: 50px;
+}
+ 
+.project-1 img:hover{
+   transform: scale(1.1);
+   transition: 1sec;
+}
